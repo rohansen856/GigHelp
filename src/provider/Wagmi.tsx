@@ -18,16 +18,16 @@ import {
 
 import { ARCANA_APP_ID } from "../utils/constants/variables"
 
-const connector = (chains: Chain[]) => {
-  return new ArcanaConnector({
-    chains: chains,
-    options: {
-      appId: `${ARCANA_APP_ID}`,
-      alwaysVisible: false,
-      position: "left",
-    },
-  })
-}
+// const connector = (chains: Chain[]) => {
+//   return new ArcanaConnector({
+//     chains: chains,
+//     options: {
+//       appId: `${ARCANA_APP_ID}`,
+//       alwaysVisible: false,
+//       position: "left",
+//     },
+//   })
+// }
 
 const { chains, provider } = configureChains(
   [mainnet, polygon, optimism, filecoin, polygonMumbai, goerli],
@@ -37,7 +37,7 @@ const { chains, provider } = configureChains(
 const client = createClient({
   autoConnect: true,
   connectors: [
-    connector(chains),
+    // connector(chains),
     new MetaMaskConnector({ chains }),
     new CoinbaseWalletConnector({
       chains,
