@@ -2,10 +2,6 @@
 
 Decentralance lets you hire talent from around the world, and pay them in crypto. We are a community of freelancers, developers, designers, and more. We are Decentralance.
 
-[Presentation](https://www.canva.com/design/DAFbA40WFkw/F64yrpxgw0E6lIBAeE-C6w/view)
-[Demo video](https://youtu.be/CqrCyR_cFB0)
-[Learn more](https://drive.google.com/drive/folders/1EAHSUzuf60Sdv4vyNTexNvVP19sIIO69?usp=sharing)
-
 ## Introduction
 
 Decentralance is the ultimate freelancing decentralized application (DAPP) that connects employers with top talent from around the world. With a community of skilled professionals including developers, designers, writers, and more, Decentralance offers a vast pool of talent for all your project needs.
